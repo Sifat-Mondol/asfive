@@ -43,7 +43,290 @@
         </div>
     </section>
 
-   
+    <main class="main">
+        <section class="cards-section">
+            <div class="cards-grid" id="cardsGrid">
+                <div class="emergency-card">
+                    <div class="card-header">
+                        <div class="card-info">
+                            <div class="card-icon emergency"><img src="/assets/emergency.png" alt="Emergency Icon"></div>
+                            <div class="card-title">National Emergency Number</div>
+                            <div class="card-title-en">National Emergency</div>
+                        </div>
+                        <button class="card-heart" onclick="incrementHeart()"><img src="/assets/heart.png" alt="Heart Icon"></button>
+                    </div>
+                    <div class="card-number">999</div>
+                    <div class="card-category">All</div>
+                    <div class="card-actions">
+                        <button class="btn btn-copy" onclick="copyNumber('999')">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
+                                <path d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H8V7h11v14z"/>
+                            </svg>
+                            Copy
+                        </button>
+                        <button class="btn btn-call" onclick="makeCall('National Emergency Number', '999')">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.01 15.38c-1.23 0-2.42-.2-3.53-.56-.35-.12-.74-.03-1.01.24l-2.07 2.07c-2.83-1.45-5.16-3.78-6.61-6.61l2.07-2.07c.27-.27.36-.66.24-1.01-.36-1.11-.56-2.3-.56-3.53 0-.55-.45-1-1-1H3.5C2.95 3 2 3.95 2 4.5c0 1.28.32 2.53.94 3.66 1.04 1.95 2.5 3.79 4.29 5.58 1.79 1.79 3.63 3.25 5.58 4.29 1.13.62 2.38.94 3.66.94.55 0 1-.95 1-1v-3.49c0-.55-.45-1-1-1z"/></svg>
+                            Call
+                        </button>
+                    </div>
+                </div>
+
+                <div class="emergency-card">
+                    <div class="card-header">
+                        <div class="card-info">
+                            <div class="card-icon police"><img src="/assets/police.png" alt="Police Icon"></div>
+                            <div class="card-title">Police Helpline Number</div>
+                            <div class="card-title-en">Police</div>
+                        </div>
+                        <button class="card-heart" onclick="incrementHeart()"><img src="/assets/heart.png" alt="Heart Icon"></button>
+                    </div>
+                    <div class="card-number">999</div>
+                    <div class="card-category">Police</div>
+                    <div class="card-actions">
+                        <button class="btn btn-copy" onclick="copyNumber('999')">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
+                                <path d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H8V7h11v14z"/>
+                            </svg>
+                            Copy
+                        </button>
+                        <button class="btn btn-call" onclick="makeCall('Police Helpline Number', '999')">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.01 15.38c-1.23 0-2.42-.2-3.53-.56-.35-.12-.74-.03-1.01.24l-2.07 2.07c-2.83-1.45-5.16-3.78-6.61-6.61l2.07-2.07c.27-.27.36-.66.24-1.01-.36-1.11-.56-2.3-.56-3.53 0-.55-.45-1-1-1H3.5C2.95 3 2 3.95 2 4.5c0 1.28.32 2.53.94 3.66 1.04 1.95 2.5 3.79 4.29 5.58 1.79 1.79 3.63 3.25 5.58 4.29 1.13.62 2.38.94 3.66.94.55 0 1-.95 1-1v-3.49c0-.55-.45-1-1-1z"/></svg>
+                            Call
+                        </button>
+                    </div>
+                </div>
+
+                <div class="emergency-card">
+                    <div class="card-header">
+                        <div class="card-info">
+                            <div class="card-icon fire"><img src="/assets/fire-service.png" alt="Fire Icon"></div>
+                            <div class="card-title">Fire Service Number</div>
+                            <div class="card-title-en">Fire Service</div>
+                        </div>
+                        <button class="card-heart" onclick="incrementHeart()"><img src="/assets/heart.png" alt="Heart Icon"></button>
+                    </div>
+                    <div class="card-number">999</div>
+                    <div class="card-category">Fire Service</div>
+                    <div class="card-actions">
+                        <button class="btn btn-copy" onclick="copyNumber('999')">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
+                                <path d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H8V7h11v14z"/>
+                            </svg>
+                            Copy
+                        </button>
+                        <button class="btn btn-call" onclick="makeCall('Fire Service Number', '999')">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.01 15.38c-1.23 0-2.42-.2-3.53-.56-.35-.12-.74-.03-1.01.24l-2.07 2.07c-2.83-1.45-5.16-3.78-6.61-6.61l2.07-2.07c.27-.27.36-.66.24-1.01-.36-1.11-.56-2.3-.56-3.53 0-.55-.45-1-1-1H3.5C2.95 3 2 3.95 2 4.5c0 1.28.32 2.53.94 3.66 1.04 1.95 2.5 3.79 4.29 5.58 1.79 1.79 3.63 3.25 5.58 4.29 1.13.62 2.38.94 3.66.94.55 0 1-.95 1-1v-3.49c0-.55-.45-1-1-1z"/></svg>
+                            Call
+                        </button>
+                    </div>
+                </div>
+
+                <div class="emergency-card">
+                    <div class="card-header">
+                        <div class="card-info">
+                            <div class="card-icon ambulance"><img src="/assets/ambulance.png" alt="Ambulance Icon"></div>
+                            <div class="card-title">Ambulance Service</div>
+                            <div class="card-title-en">Ambulance</div>
+                        </div>
+                        <button class="card-heart" onclick="incrementHeart()"><img src="/assets/heart.png" alt="Heart Icon"></button>
+                    </div>
+                    <div class="card-number">1994-99999</div>
+                    <div class="card-category">Health</div>
+                    <div class="card-actions">
+                        <button class="btn btn-copy" onclick="copyNumber('1994-99999')">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
+                                <path d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H8V7h11v14z"/>
+                            </svg>
+                            Copy
+                        </button>
+                        <button class="btn btn-call" onclick="makeCall('Ambulance Service', '1994-99999')">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.01 15.38c-1.23 0-2.42-.2-3.53-.56-.35-.12-.74-.03-1.01.24l-2.07 2.07c-2.83-1.45-5.16-3.78-6.61-6.61l2.07-2.07c.27-.27.36-.66.24-1.01-.36-1.11-.56-2.3-.56-3.53 0-.55-.45-1-1-1H3.5C2.95 3 2 3.95 2 4.5c0 1.28.32 2.53.94 3.66 1.04 1.95 2.5 3.79 4.29 5.58 1.79 1.79 3.63 3.25 5.58 4.29 1.13.62 2.38.94 3.66.94.55 0 1-.95 1-1v-3.49c0-.55-.45-1-1-1z"/></svg>
+                            Call
+                        </button>
+                    </div>
+                </div>
+
+                <div class="emergency-card">
+                    <div class="card-header">
+                        <div class="card-info">
+                            <div class="card-icon women"><img src="/assets/emergency.png" alt="Women & Child Icon"></div>
+                            <div class="card-title">Women & Child Helpline</div>
+                            <div class="card-title-en">Women & Child</div>
+                        </div>
+                        <button class="card-heart" onclick="incrementHeart()"><img src="/assets/heart.png" alt="Heart Icon"></button>
+                    </div>
+                    <div class="card-number">109</div>
+                    <div class="card-category">Help</div>
+                    <div class="card-actions">
+                        <button class="btn btn-copy" onclick="copyNumber('109')">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
+                                <path d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H8V7h11v14z"/>
+                            </svg>
+                            Copy
+                        </button>
+                        <button class="btn btn-call" onclick="makeCall('Women & Child Helpline', '109')">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.01 15.38c-1.23 0-2.42-.2-3.53-.56-.35-.12-.74-.03-1.01.24l-2.07 2.07c-2.83-1.45-5.16-3.78-6.61-6.61l2.07-2.07c.27-.27.36-.66.24-1.01-.36-1.11-.56-2.3-.56-3.53 0-.55-.45-1-1-1H3.5C2.95 3 2 3.95 2 4.5c0 1.28.32 2.53.94 3.66 1.04 1.95 2.5 3.79 4.29 5.58 1.79 1.79 3.63 3.25 5.58 4.29 1.13.62 2.38.94 3.66.94.55 0 1-.95 1-1v-3.49c0-.55-.45-1-1-1z"/></svg>
+                            Call
+                        </button>
+                    </div>
+                </div>
+
+                <div class="emergency-card">
+                    <div class="card-header">
+                        <div class="card-info">
+                            <div class="card-icon anti-corruption"><img src="/assets/emergency.png" alt="Anti-Corruption Icon"></div>
+                            <div class="card-title">Anti-Corruption Helpline</div>
+                            <div class="card-title-en">Anti-Corruption</div>
+                        </div>
+                        <button class="card-heart" onclick="incrementHeart()"><img src="/assets/heart.png" alt="Heart Icon"></button>
+                    </div>
+                    <div class="card-number">106</div>
+                    <div class="card-category">Govt</div>
+                    <div class="card-actions">
+                        <button class="btn btn-copy" onclick="copyNumber('106')">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
+                                <path d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H8V7h11v14z"/>
+                            </svg>
+                            Copy
+                        </button>
+                        <button class="btn btn-call" onclick="makeCall('Anti-Corruption Helpline', '106')">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.01 15.38c-1.23 0-2.42-.2-3.53-.56-.35-.12-.74-.03-1.01.24l-2.07 2.07c-2.83-1.45-5.16-3.78-6.61-6.61l2.07-2.07c.27-.27.36-.66.24-1.01-.36-1.11-.56-2.3-.56-3.53 0-.55-.45-1-1-1H3.5C2.95 3 2 3.95 2 4.5c0 1.28.32 2.53.94 3.66 1.04 1.95 2.5 3.79 4.29 5.58 1.79 1.79 3.63 3.25 5.58 4.29 1.13.62 2.38.94 3.66.94.55 0 1-.95 1-1v-3.49c0-.55-.45-1-1-1z"/></svg>
+                            Call
+                        </button>
+                    </div>
+                </div>
+
+                <div class="emergency-card">
+                    <div class="card-header">
+                        <div class="card-info">
+                            <div class="card-icon electricity"><img src="/assets/emergency.png" alt="Electricity Icon"></div>
+                            <div class="card-title">Electricity Helpline</div>
+                            <div class="card-title-en">Electricity</div>
+                        </div>
+                        <button class="card-heart" onclick="incrementHeart()"><img src="/assets/heart.png" alt="Heart Icon"></button>
+                    </div>
+                    <div class="card-number">16216</div>
+                    <div class="card-category">Electricity</div>
+                    <div class="card-actions">
+                        <button class="btn btn-copy" onclick="copyNumber('16216')">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
+                                <path d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H8V7h11v14z"/>
+                            </svg>
+                            Copy
+                        </button>
+                        <button class="btn btn-call" onclick="makeCall('Electricity Helpline', '16216')">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.01 15.38c-1.23 0-2.42-.2-3.53-.56-.35-.12-.74-.03-1.01.24l-2.07 2.07c-2.83-1.45-5.16-3.78-6.61-6.61l2.07-2.07c.27-.27.36-.66.24-1.01-.36-1.11-.56-2.3-.56-3.53 0-.55-.45-1-1-1H3.5C2.95 3 2 3.95 2 4.5c0 1.28.32 2.53.94 3.66 1.04 1.95 2.5 3.79 4.29 5.58 1.79 1.79 3.63 3.25 5.58 4.29 1.13.62 2.38.94 3.66.94.55 0 1-.95 1-1v-3.49c0-.55-.45-1-1-1z"/></svg>
+                            Call
+                        </button>
+                    </div>
+                </div>
+
+                <div class="emergency-card">
+                    <div class="card-header">
+                        <div class="card-info">
+                            <div class="card-icon bus"><img src="/assets/brac.png" alt="Bus Icon"></div>
+                            <div class="card-title">Brac Helpline</div>
+                            <div class="card-title-en">Brac</div>
+                        </div>
+                        <button class="card-heart" onclick="incrementHeart()"><img src="/assets/heart.png" alt="Heart Icon"></button>
+                    </div>
+                    <div class="card-number">16445</div>
+                    <div class="card-category">NGO</div>
+                    <div class="card-actions">
+                        <button class="btn btn-copy" onclick="copyNumber('16445')">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
+                                <path d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H8V7h11v14z"/>
+                            </svg>
+                            Copy
+                        </button>
+                        <button class="btn btn-call" onclick="makeCall('Brac Helpline', '16445')">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.01 15.38c-1.23 0-2.42-.2-3.53-.56-.35-.12-.74-.03-1.01.24l-2.07 2.07c-2.83-1.45-5.16-3.78-6.61-6.61l2.07-2.07c.27-.27.36-.66.24-1.01-.36-1.11-.56-2.3-.56-3.53 0-.55-.45-1-1-1H3.5C2.95 3 2 3.95 2 4.5c0 1.28.32 2.53.94 3.66 1.04 1.95 2.5 3.79 4.29 5.58 1.79 1.79 3.63 3.25 5.58 4.29 1.13.62 2.38.94 3.66.94.55 0 1-.95 1-1v-3.49c0-.55-.45-1-1-1z"/></svg>
+                            Call
+                        </button>
+                    </div>
+                </div>
+
+                <div class="emergency-card">
+                    <div class="card-header">
+                        <div class="card-info">
+                            <div class="card-icon railway"><img src="/assets/emergency.png" alt="Railway Icon"></div>
+                            <div class="card-title">Bangladesh Railway Helpline</div>
+                            <div class="card-title-en">Bangladesh Railway</div>
+                        </div>
+                        <button class="card-heart" onclick="incrementHeart()"><img src="/assets/heart.png" alt="Heart Icon"></button>
+                    </div>
+                    <div class="card-number">163</div>
+                    <div class="card-category">Travel</div>
+                    <div class="card-actions">
+                        <button class="btn btn-copy" onclick="copyNumber('163')">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
+                                <path d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H8V7h11v14z"/>
+                            </svg>
+                            Copy
+                        </button>
+                        <button class="btn btn-call" onclick="makeCall('Bangladesh Railway Helpline', '163')">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.01 15.38c-1.23 0-2.42-.2-3.53-.56-.35-.12-.74-.03-1.01.24l-2.07 2.07c-2.83-1.45-5.16-3.78-6.61-6.61l2.07-2.07c.27-.27.36-.66.24-1.01-.36-1.11-.56-2.3-.56-3.53 0-.55-.45-1-1-1H3.5C2.95 3 2 3.95 2 4.5c0 1.28.32 2.53.94 3.66 1.04 1.95 2.5 3.79 4.29 5.58 1.79 1.79 3.63 3.25 5.58 4.29 1.13.62 2.38.94 3.66.94.55 0 1-.95 1-1v-3.49c0-.55-.45-1-1-1z"/></svg>
+                            Call
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="history">
+            <div class="history-head">
+                <div class="history-title">
+                    <span></span>
+                    <span>Call History</span>
+                </div>
+                <button id="clearBtn" class="btn-clear" onclick="clearHistory()">Clear</button>
+            </div>
+            <div id="historyList" class="history-list">
+                <div class="history-item-scr">
+                    <div class="info">
+                        <div class="service-name">Fire Service Number</div>
+                        <div class="number-time">📞 999</div>
+                    </div>
+                    <div class="time">🕐 11:30 AM</div>
+                </div>
+                <div class="history-item-scr">
+                    <div class="info">
+                        <div class="service-name">National Emergency Number</div>
+                        <div class="number-time">📞 1994-99999</div>
+                    </div>
+                    <div class="time">🕐 11:30 AM</div>
+                </div>
+                <div class="history-item-scr">
+                    <div class="info">
+                        <div class="service-name">Fire Service Number</div>
+                        <div class="number-time">📞 999</div>
+                    </div>
+                    <div class="time">🕐 11:30 AM</div>
+                </div>
+                <div class="history-item-scr">
+                    <div class="info">
+                        <div class="service-name">Bangladesh Railway Helpline</div>
+                        <div class="number-time">📞 999</div>
+                    </div>
+                    <div class="time">🕐 11:30 AM</div>
+                </div>
+                <div class="history-item-scr">
+                    <div class="info">
+                        <div class="service-name">Fire Service Number</div>
+                        <div class="number-time">📞 999</div>
+                    </div>
+                    <div class="time">🕐 11:30 AM</div>
+                </div>
+                <div class="history-item-screenshot">
+                    <div class="info">
+                        <div class="service-name">Anti-Corruption Helpline</div>
+                        <div class="number-time">📞 106</div>
+                    </div>
+                    <div class="time">🕐 7:06 AM</div>
+                </div>
+            </div>
+        </section>
+    </main>
 
   
 </body>

@@ -133,7 +133,5 @@ document.addEventListener("DOMContentLoaded", () => {
 
   updateCounters()
 
-  // Clear existing history and show empty message
-  const historyList = getElement("historyList")
-  historyList.innerHTML = '<div class="empty">No calls made yet</div>'
+  
 })
